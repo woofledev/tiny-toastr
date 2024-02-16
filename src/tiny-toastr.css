@@ -1,0 +1,29 @@
+/* tiny-toastr 1.0 | MIT License
+ * https://github.com/woofledev/tiny-toastr */
+
+ ._toast {
+  background: #51A351; color: white;
+  position: fixed;
+  padding: 10px 20px;
+  z-index: 9999;
+}
+._toast.top {top: 20px}
+._toast.bottom {bottom: 20px}
+._toast.left {left: 20px}
+._toast.right {right: 20px}
+
+._toast-btn { /* close btn */
+  background: transparent; color: white;
+  cursor: pointer;
+  opacity: 0.4; border: 0;
+  padding: 0 5px;
+}
+
+
+/* some simple keyframes */
+@keyframes fadein {
+  from {opacity: 0;} to {opacity: 1;}
+}
+@keyframes fadeout {
+  from {opacity: 1;} to {opacity: 0;}
+}
