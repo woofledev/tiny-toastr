@@ -1,0 +1,12 @@
+{
+  "name": "tiny-toastr",
+  "version": "1.0.1",
+  "description": "a tiny js toaster",
+  "type": "module",
+  "main": "src/tiny-toastr.js",
+  "style": "src/tiny-toastr.css",
+  
+  "repository": "https://github.com/woofledev/tiny-toastr",
+  "author": "woofledev",
+  "license": "MIT"
+}

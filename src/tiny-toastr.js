@@ -1,10 +1,11 @@
-// tiny-toastr 1.0 | MIT License
+// tiny-toastr 1.0.1 | MIT License
 // https://github.com/woofledev/tiny-toastr
 
 
 export const stack = (toast) => {
   // Allows you to stack toasts on top of eachother
-  toast.style.bottom = `${
+  let type = toast.classList.contains("top") ? "top" : "bottom";
+  toast.style[type] = `${
     20 + 
     (document.querySelectorAll("._toast").length - 1) * (toast.offsetHeight + 10)
   }px`;
